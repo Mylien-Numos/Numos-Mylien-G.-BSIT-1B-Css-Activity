@@ -1,0 +1,24 @@
+#mywebsite section {
+	text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#landing {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), rgba(94, 94, 94, 0.644)) ,url(../img/landing-img.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+    height: 100vh;
+	display: grid;
+	place-content: center;
+	text-shadow: 2px 1px black;
+}
+#landing :first-child {
+  	margin-top: 110px;
+	font-size: 3.1vw; 
+    
+}
+#landing p {
+	margin-top: -10px;
+    font-size: 18px;
+
+}
